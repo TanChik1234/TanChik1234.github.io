@@ -1,0 +1,246 @@
+/****************** Variables *******************/
+:root{
+  --background_light_green: rgba(0, 255, 209, 0.31);
+  --background_dark_green: #008F76;
+  --color_text_white: #fff;
+  --color_text_black: #000;
+  --color_text_gray: #7b7b7b;
+}
+
+html{
+  background-color: #c4caca;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: var(--color_text_black);
+  max-width: 1440px;
+  padding: 0 80px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/************************** Sidebar ***********************/
+.sidebar{
+  background-color: var(--background_light_green);
+}
+
+.my-photo{
+  display: flex;
+}
+.sidebar-my-photo{
+  margin: 40px auto;
+  border-radius: 50%;
+  box-shadow: 8px 8px 5px lightblue;
+}
+
+.sidebar-title{
+  background-color: var(--background_dark_green);
+  color: var(--color_text_white);
+  padding-left: 40px;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.sidebar-contacts-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-contacts-list-item{
+  margin-left: 28px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.sidebar-contacts-list-item a{
+  text-decoration: none;
+  color: var(--color_text_black);
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+.language{
+  margin: 44px 0;
+}
+
+.circles{
+  display: flex;
+  margin-right: 12px;
+}
+.circle{
+  border-radius: 50%;
+  border: 1px solid var(--color_text_black);
+  background-color: var(--color_text_white);
+  width: 24px;
+  height: 24px;
+}
+
+.light_circle{
+  background-color: var(--background_dark_green);
+}
+
+.skills-name{
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 0 28px;
+}
+
+.skills-level{
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 28px;
+  margin: 0 12px 0 28px;
+  text-align: right;
+}
+
+.skills-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list-item{
+  margin-bottom: 12px;
+}
+
+.skills{
+  margin-top: 44px;
+}
+
+.sidebar-list{
+  padding: 0 0 0 64px;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.sidebar-list-item{
+  margin: 0 0 12px 0;
+}
+
+.sidebar-list-item::marker{
+  color: var(--background_dark_green);
+  border: 1px solid var(--color_text_black);
+}
+
+.hobby{
+  margin-top: 44px;
+  margin-bottom: 120px;
+}
+
+/******************************* Main section **************************/
+.personal-information{
+  margin-top: 136px;
+}
+
+.name{
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.position{
+  color: var(--background_dark_green);
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 92px;
+}
+
+.personal-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personal-list-item{
+  display: flex;
+  font-size: 32px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.personal-inform{
+  margin-left: 12px;
+}
+
+.section-title{
+  color: var(--background_dark_green);
+  font-size: 40px;
+  font-weight: 700;
+  margin: 44px 0 16px 0;
+}
+
+.section-subtitle{
+  color: var(--color_text_black);
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+section p{
+  color: var(--color_text_black);
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+}
+
+.light-color-text{
+  color: var(--color_text_gray);
+  font-size: 28px;
+  margin: 0 0 16px 0;
+}
+
+.job-list-item{
+  color: var(--color_text_black);
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.section-element{
+  padding-left: 12px;
+  margin-left: 36px;
+  border-left: 1px solid var(--background_dark_green);
+}
+
+
+.courses-list-item{
+  margin: 0 0 32px 0;
+  padding: 0;
+}
+
+.courses-list{
+  list-style-type: none;
+  padding: 0;
+}
+
+.link-certificate{
+  color: var(--color_text_black);
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+  text-decoration: none;
+}
+
+.courses-text{
+  margin: 0;
+}
